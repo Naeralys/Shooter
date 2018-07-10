@@ -11,7 +11,7 @@
 
 #define BlockCooldown 120
 
-Character::Character( const char* fileName, SDL_Renderer* renderer, int x, int y ) {
+Character::Character( const char* fileName, SDL_Renderer* renderer, int x, int y ) {
     this->renderer = renderer;
     texture = TextureManager::LoadTexture( fileName );
     this->x = x;

@@ -391,7 +391,7 @@ void Game::Render() {
     tile[2]->Render();
     playerOne->Render();
     playerTwo->Render();
-    for( int i = 0; i < 10; i++ ) {
+    for( int i = 0; i < 10; i++ ) {
         bulletOne[i]->Render();
         bulletTwo[i]->Render();
     }
