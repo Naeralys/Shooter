@@ -15,7 +15,7 @@ void Collision::Bullet( Character *player, GameObject *bullet ) {
                 player->velX = 5 * player->Knockback();
                 player->KeyLock( 20 );
             }
-            if( bullet->velX < 0 ) {
+            if( bullet->velX < 0 ) {
                 player->velX = -5 * player->Knockback();
                 player->KeyLock( 20);
             }
